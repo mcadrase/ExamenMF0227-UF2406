@@ -4,7 +4,7 @@ public class Utilidades {
 
 	
 
-	public String devuelveNota(double nota) {
+	public static String devuelveNota(double nota) {
 		String descripcion = "Matrícula";
 		
 		if (nota<0.0 || nota >10) {
